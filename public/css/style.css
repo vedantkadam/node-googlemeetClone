@@ -6,7 +6,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
+
 }
 
 .mr-1 {
@@ -38,12 +40,15 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
 }
-
+.logo {
+  text-decoration: underline red;
+  text-underline-offset: 8px; /* Adjust value for desired spacing */
+}
 navbar .logo {
   font-size: 28px;
-  color: #393e46;
+  color: #ffffff;
   font-weight: bold;
   padding: 0 12%;
   margin-top: 32px;
@@ -62,11 +67,11 @@ navbar .logo {
 .main .create-join .text .head {
   font-size: 36px;
   font-weight: bold;
-  color: #393e46;
+  color: #ffffff;
 }
 .main .create-join .text .subtext {
   font-size: 24px;
-  color: #6f6f6f;
+  color: #ffffff;
   margin-top: 10px;
 }
 .main .create-join .createroom-butt {
@@ -74,19 +79,19 @@ navbar .logo {
   margin-top: 60px;
   font-size: 24px;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #e74c3c;;
   color: white;
   text-align: center;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  border: 2px solid #4ecca3;
+  border: 2px solid #e74c3c;;
   transition: 0.3s;
 }
 .main .create-join .createroom-butt:hover {
   background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
+  border: 2px solid #e74c3c;;
+  color: #e74c3c;;
   cursor: pointer;
 }
 .main .create-join .createroom-butt:focus {
@@ -102,23 +107,35 @@ navbar .logo {
   border: none;
   border-radius: 10px;
   background-color: white;
-  border: 2px solid #4ecca3;
-  color: #4ecca3;
+  border: 2px solid #df1f1f;
+  color: #df1f1f;
 }
 .main .create-join .createroom-clicked:focus {
   outline: none;
 }
 .main .create-join .roomcode {
+  border-radius: 50px;
   width: 100%;
   margin-top: 30px;
   font-size: 24px;
-  color: #393e46;
+  color: #000000;
   text-align: center;
   padding: 10px 0;
   border: none;
-  border-bottom: 3px solid #232931;
+  border-bottom: 3px solid #ffffff;
   border-top: 2px solid white;
   font-weight: bold;
+}
+
+.main .create-join .joinroom {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  right: 180px;
 }
 .main .create-join .roomcode:focus {
   background-color: white;
@@ -131,14 +148,7 @@ navbar .logo {
 .main .create-join .roomcode-error {
   border-bottom: 3px solid #d31c1c;
 }
-.main .create-join .joinroom {
-  margin-top: 20px;
-  width: 100%;
-  text-align: right;
-  font-size: 24px;
-  font-weight: bold;
-  color: #232931;
-}
+
 .main .create-join .joinroom:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -161,7 +171,7 @@ navbar .logo {
   width: 100px;
 }
 .main .video-cont .settings .device {
-  background-color: #4ecca3;
+  background-color: #df1f1f;
   border-radius: 100px;
   padding: 10px;
   width: 40px;
@@ -233,7 +243,7 @@ navbar .logo {
   font-weight: bold;
   padding: 10px;
   width: 90%;
-  border-bottom: 3px solid #4ecca3;
+  border-bottom: 3px solid #df1f1f;;
   color: #393e46;
   height: 40px;
 }
@@ -246,7 +256,7 @@ navbar .logo {
   margin-top: 30px;
   color: #ffffff;
   font-weight: bold;
-  background-color: #4ecca3;
+  background-color: #df1f1f;;
   padding: 12px 20px;
   border-radius: 10px;
   transition: opacity 0.5s;
